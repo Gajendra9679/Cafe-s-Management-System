@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cafe Cart</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			text-align: left;
+		}
+		th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		th {
+			background-color: #f2f2f2;
+		}
+		img {
+			width: 50px;
+			height: 50px;
+			object-fit: cover;
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Cafe Cart</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Product</th>
+				<th>Image</th>
+				<th>Price</th>
+				<th>Quantity</th>
+				<th>Total</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Coffee</td>
+				<td><img src="1.PNG" alt="Coffee"></td>
+				<td>$2.50</td>
+				<td><input type="number" name="coffee-quantity" value="0"></td>
+				<td>$0.00</td>
+			</tr>
+			<tr>
+				<td>Tea</td>
+				<td><img src="2.PNG" alt="Tea"></td>
+				<td>$2.00</td>
+				<td><input type="number" name="tea-quantity" value="0"></td>
+				<td>$0.00</td>
+			</tr>
+			<tr>
+				<td>Croissant</td>
+				<td><img src="3.PNG" alt="Croissant"></td>
+				<td>$3.00</td>
+				<td><input type="number" name="croissant-quantity" value="0"></td>
+				<td>$0.00</td>
+			</tr>
+			<tr>
+				<td>Bagel</td>
+				<td><img src="4.PNG" alt="Bagel"></td>
+				<td>$2.50</td>
+				<td><input type="number" name="bagel-quantity" value="0"></td>
+				<td>$0.00</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th colspan="4">Total</th>
+				<td>$0.00</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
